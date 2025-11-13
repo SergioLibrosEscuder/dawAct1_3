@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  background-color: #5f9;
+  padding: 10px;
+}
+
+ul {
+  margin: 50px;
+}
+
+.img-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  & img:hover {
+    cursor: pointer;
+  }
+}
+
+.hidden {
+  display: none;
+}
